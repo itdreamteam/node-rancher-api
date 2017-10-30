@@ -1,0 +1,32 @@
+{
+  "name": "@pixul/node-rancher-api",
+  "version": "1.0.0",
+  "description": "Rancher API client",
+  "main": "lib/lib.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itdreamteam/node-rancher-api.git"
+  },
+  "keywords": [
+    "rancher",
+    "api",
+    "node",
+    "rancher-api"
+  ],
+  "author": "Daniel COLE <daniel@leggett.fr",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/itdreamteam/node-rancher-api/issues"
+  },
+  "homepage": "https://github.com/itdreamteam/node-rancher-api#readme",
+  "dependencies": {
+    "joi": "10.x",
+    "request": "2.x"
+  }
+}
