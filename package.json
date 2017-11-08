@@ -1,6 +1,6 @@
 {
   "name": "@pixul/node-rancher-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rancher API client",
   "main": "lib/lib.js",
   "directories": {
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/itdreamteam/node-rancher-api#readme",
   "dependencies": {
+    "bluebird": "^3.5.1",
     "joi": "10.x",
     "request": "2.x"
   },
