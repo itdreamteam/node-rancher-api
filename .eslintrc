@@ -1,0 +1,6 @@
+{
+  "extends" : "@pixul/pixul",
+  "plugins" : [
+    "security"
+  ]
+}
