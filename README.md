@@ -135,3 +135,52 @@ Gets information about a specific volume
 
 Removes a volume
 
+## Event API
+
+```js
+const Rancher = require('@pixul/node-rancher-api');
+
+const rancher = new Rancher({
+    url: 'https://try.rancher.com/v2-beta/projects/XXXXXXXX/',
+    access_key: 'SoMeToKeN',
+    secret_key: 'someSecRetToken'
+});
+
+const eventApi = new Rancher.EventApi();
+
+eventApi.on('error', err => {
+    console.log(err);
+});
+
+eventApi.on('resource.change.host.1h874.active', event => {
+    const hostId = event.data.resource.id;
+});
+
+eventApi.on('resource.change.host.1h874.active', event => {
+    const hostId = event.data.resource.id;
+});
+```
+
+### Event filters 
+
+#### Basic
+
+* `resource.change`
+* `resource.change.<type>`
+* `resource.change.<type>.<id>`
+
+#### State filter
+
+If the resource got a `state` attribute set and a `transitioning` value to `no`
+
+* `resource.change.<state>`
+* `resource.change.<type>.<state>`
+* `resource.change.<type>.<id>.<state>`
+
+### Transitioning resource
+
+If the resource got `transitioning` set to `yes`
+
+* `resource.change.transitioning`
+* `resource.change.<type>.transitioning`
+* `resource.change.<type>.<id>.transitioning`

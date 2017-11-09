@@ -28,7 +28,8 @@
   "dependencies": {
     "bluebird": "^3.5.1",
     "joi": "10.x",
-    "request": "2.x"
+    "request": "2.x",
+    "ws": "^3.3.1"
   },
   "devDependencies": {
     "@pixul/eslint-config-pixul": "^1.0.3",
