@@ -156,7 +156,11 @@ eventApi.on('resource.change.host.1h874.active', event => {
     const hostId = event.data.resource.id;
 });
 
-eventApi.on('resource.change.host.1h874.active', event => {
+eventApi.on('resource.change.host.1h874.transitioning', event => {
+    const hostId = event.data.resource.id;
+});
+
+eventApi.on('resource.change.host.1h874.active.transitioning', event => { // Will never be trigger, never
     const hostId = event.data.resource.id;
 });
 ```
