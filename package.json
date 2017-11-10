@@ -35,5 +35,9 @@
     "@pixul/eslint-config-pixul": "^1.0.3",
     "eslint": "^4.10.0",
     "eslint-plugin-security": "^1.4.0"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^3.0.3",
+    "utf-8-validate": "^3.0.4"
   }
 }
