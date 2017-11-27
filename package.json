@@ -1,6 +1,6 @@
 {
   "name": "@pixul/node-rancher-api",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Rancher API client",
   "main": "lib/lib.js",
   "directories": {
