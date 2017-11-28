@@ -1,6 +1,6 @@
 {
   "name": "@pixul/node-rancher-api",
-  "version": "1.2.3",
+  "version": "1.3.0",
   "description": "Rancher API client",
   "main": "lib/lib.js",
   "directories": {
@@ -26,18 +26,19 @@
   },
   "homepage": "https://github.com/itdreamteam/node-rancher-api#readme",
   "dependencies": {
-    "bluebird": "^3.5.1",
-    "joi": "10.x",
-    "request": "2.x",
-    "ws": "^3.3.1"
+    "bluebird": "3.5.1",
+    "joi": "13.0.2",
+    "request": "2.83.0",
+    "ws": "3.3.2",
+    "promise-events": "0.1.4"
   },
   "devDependencies": {
-    "@pixul/eslint-config-pixul": "^1.0.3",
-    "eslint": "^4.10.0",
-    "eslint-plugin-security": "^1.4.0"
+    "@pixul/eslint-config-pixul": "1.0.4",
+    "eslint": "4.12.0",
+    "eslint-plugin-security": "1.4.0"
   },
   "optionalDependencies": {
-    "bufferutil": "^3.0.3",
-    "utf-8-validate": "^3.0.4"
+    "bufferutil": "3.0.3",
+    "utf-8-validate": "3.0.4"
   }
 }
