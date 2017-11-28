@@ -29,7 +29,8 @@
     "bluebird": "^3.5.1",
     "joi": "10.x",
     "request": "2.x",
-    "ws": "^3.3.1"
+    "ws": "^3.3.1",
+    "promise-events": "0.1.4"
   },
   "devDependencies": {
     "@pixul/eslint-config-pixul": "^1.0.3",
