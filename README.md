@@ -123,6 +123,22 @@ Starts a service
 
 Restarts a service
 
+### `createService(serviceId)`
+
+Creates a service
+
+### `upgradeService(serviceId, upgradeParams)`
+
+Upgrades a service
+
+### `cancelUpgradeService(serviceId)`
+
+Cancels service upgrade
+
+### `rollbackService(serviceId)`
+
+Reverts service upgrade
+
 ### `createVolume(volume)`
 
 Creates a volume
